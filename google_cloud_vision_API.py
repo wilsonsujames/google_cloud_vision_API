@@ -19,4 +19,4 @@ response1 = client.text_detection(image=image1)
 texts1 = response1.text_annotations
 print('Texts:')
 for text in texts1:
-    print('\n"{}"'.format(text))
+    print('\n"{}"'.format(text.description))
